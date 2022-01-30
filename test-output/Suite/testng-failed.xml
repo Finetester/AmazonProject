@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="invalidemail" value="invalidabc@gmail.com"/>
+  <parameter name="validemail" value="abc@gmail.com"/>
+  <parameter name="url" value="https://www.amazon.ca/"/>
+  <test thread-count="5" name="RegressionTest-chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test.LandingValidation">
+        <methods>
+          <include name="validateurl"/>
+          <include name="validatetitle"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- test.LandingValidation -->
+    </classes>
+  </test> <!-- RegressionTest-chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

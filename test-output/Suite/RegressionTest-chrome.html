@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  RegressionTest-chrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>RegressionTest-chrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jan 29 17:29:04 EST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>17 seconds (17324 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.AddToCartTest.checkcart()'><b>checkcart</b><br>Test class: test.AddToCartTest</td>
+<td></td>
+<td>6</td>
+<td>test.AddToCartTest@3f191845</td></tr>
+<tr>
+<td title='test.AddToCartTest.finalcheck()'><b>finalcheck</b><br>Test class: test.AddToCartTest</td>
+<td></td>
+<td>1</td>
+<td>test.AddToCartTest@3f191845</td></tr>
+<tr>
+<td title='test.LoginValidations.invalidemailkey()'><b>invalidemailkey</b><br>Test class: test.LoginValidations<br>Parameters: invalidabc@gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.LoginValidations@5f049ea1</td></tr>
+<tr>
+<td title='test.LoginValidations.invalidemailkeylogout()'><b>invalidemailkeylogout</b><br>Test class: test.LoginValidations<br>Parameters: abc@gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.LoginValidations@5f049ea1</td></tr>
+<tr>
+<td title='test.ResultsAndPriceValidation.noofresults()'><b>noofresults</b><br>Test class: test.ResultsAndPriceValidation</td>
+<td></td>
+<td>1</td>
+<td>test.ResultsAndPriceValidation@72035809</td></tr>
+<tr>
+<td title='test.ResultsAndPriceValidation.priceofmobile()'><b>priceofmobile</b><br>Test class: test.ResultsAndPriceValidation</td>
+<td></td>
+<td>2</td>
+<td>test.ResultsAndPriceValidation@72035809</td></tr>
+<tr>
+<td title='test.NavigationValidations.validateamazoncashpage()'><b>validateamazoncashpage</b><br>Test class: test.NavigationValidations<br/>
+<a href="#Output-1870749311" onClick='toggleBox("Output-1870749311", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1870749311" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1870749311">
+this is correct urlhttps://www.amazon.ca/<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.NavigationValidations@72cc7e6f</td></tr>
+<tr>
+<td title='test.NavigationValidations.validatenewreleasepage()'><b>validatenewreleasepage</b><br>Test class: test.NavigationValidations<br/>
+<a href="#Output-1709700394" onClick='toggleBox("Output-1709700394", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1709700394" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1709700394">
+this is correct urlhttps://www.amazon.ca/<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.NavigationValidations@72cc7e6f</td></tr>
+<tr>
+<td title='test.AAALandingValidation.validatetitle()'><b>validatetitle</b><br>Test class: test.AAALandingValidation<br/>
+<a href="#Output-467632528" onClick='toggleBox("Output-467632528", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-467632528" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-467632528">
+this is correct titleAmazon.ca: Low Prices – Fast Shipping – Millions of Items<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.AAALandingValidation@3ba987b8</td></tr>
+<tr>
+<td title='test.AAALandingValidation.validateurl()'><b>validateurl</b><br>Test class: test.AAALandingValidation<br/>
+<a href="#Output-191310504" onClick='toggleBox("Output-191310504", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-191310504" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-191310504">
+this is correct urlhttps://www.amazon.ca/<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.AAALandingValidation@3ba987b8</td></tr>
+<tr>
+<td title='test.NavigationValidations.validatwishlistpage()'><b>validatwishlistpage</b><br>Test class: test.NavigationValidations<br/>
+<a href="#Output-2135790485" onClick='toggleBox("Output-2135790485", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2135790485" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2135790485">
+this is correct urlhttps://www.amazon.ca/<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.NavigationValidations@72cc7e6f</td></tr>
+<tr>
+<td title='test.LoginValidations.validemailkey()'><b>validemailkey</b><br>Test class: test.LoginValidations<br>Parameters: abc@gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.LoginValidations@5f049ea1</td></tr>
+<tr>
+<td title='test.LoginValidations.validemailkeylogout()'><b>validemailkeylogout</b><br>Test class: test.LoginValidations<br>Parameters: abc@gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.LoginValidations@5f049ea1</td></tr>
+<tr>
+<td title='test.PincodeValidation.verifypincode()'><b>verifypincode</b><br>Test class: test.PincodeValidation</td>
+<td></td>
+<td>0</td>
+<td>test.PincodeValidation@5afa3c9</td></tr>
+</table><p>
+</body>
+</html>
