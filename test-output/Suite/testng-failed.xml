@@ -7,14 +7,85 @@
   <test thread-count="5" name="RegressionTest-chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="test.LandingValidation">
+      <class name="test.NavigationValidations">
         <methods>
-          <include name="validateurl"/>
-          <include name="validatetitle"/>
+          <include name="validatenewreleasepage"/>
+          <include name="afterSuite"/>
+          <include name="validatwishlistpage"/>
+          <include name="validateamazoncashpage"/>
+          <include name="beforeSuite"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- test.NavigationValidations -->
+      <class name="test.AddToCartTest">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="afterSuite"/>
+          <include name="finalcheck"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- test.AddToCartTest -->
+      <class name="test.LoginValidations">
+        <methods>
+          <include name="invalidemailkey"/>
+          <include name="invalidemailkeylogout"/>
+          <include name="validemailkey"/>
+          <include name="beforeclass"/>
+          <include name="validemailkeylogout"/>
           <include name="afterSuite"/>
           <include name="beforeSuite"/>
         </methods>
-      </class> <!-- test.LandingValidation -->
+      </class> <!-- test.LoginValidations -->
+      <class name="test.PincodeValidation">
+        <methods>
+          <include name="verifypincode"/>
+          <include name="beforeclass"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- test.PincodeValidation -->
     </classes>
   </test> <!-- RegressionTest-chrome(failed) -->
+  <test thread-count="5" name="RegressionTest-firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="test.NavigationValidations">
+        <methods>
+          <include name="validatenewreleasepage"/>
+          <include name="afterSuite"/>
+          <include name="validatwishlistpage"/>
+          <include name="validateamazoncashpage"/>
+          <include name="beforeSuite"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- test.NavigationValidations -->
+      <class name="test.AddToCartTest">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="afterSuite"/>
+          <include name="finalcheck"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- test.AddToCartTest -->
+      <class name="test.LoginValidations">
+        <methods>
+          <include name="invalidemailkey"/>
+          <include name="invalidemailkeylogout"/>
+          <include name="validemailkey"/>
+          <include name="beforeclass"/>
+          <include name="validemailkeylogout"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- test.LoginValidations -->
+      <class name="test.PincodeValidation">
+        <methods>
+          <include name="verifypincode"/>
+          <include name="beforeclass"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- test.PincodeValidation -->
+    </classes>
+  </test> <!-- RegressionTest-firefox(failed) -->
 </suite> <!-- Failed suite [Suite] -->

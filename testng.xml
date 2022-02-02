@@ -7,9 +7,16 @@
 
   <test thread-count="5" name="RegressionTest-chrome">
   <parameter name ="browser" value = "chrome" ></parameter>
-  
-    <packages>
+      <packages>
       <package name="test"/>
     </packages>
-  </test> <!-- RegressionTest -->
+    
+    </test> <!-- RegressionTest -->
+    <test thread-count="5" name="RegressionTest-firefox">
+  <parameter name ="browser" value = "firefox" ></parameter>
+      <packages>
+      <package name="test"/>
+    </packages>
+    
+  </test> 
 </suite> <!-- Suite -->

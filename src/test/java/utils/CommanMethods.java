@@ -24,7 +24,7 @@ public class CommanMethods {
 		
 		}
 		else if (browser.equalsIgnoreCase("Firefox")) {
-	    System.getProperty("webdriver.gecko.driver",path+"\\Drivers\\geckodriver.exe");
+	    System.setProperty("webdriver.gecko.driver",path+"\\Drivers\\geckodriver.exe");
 	    driver = new FirefoxDriver();
 	   
 		}

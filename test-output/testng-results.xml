@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="12" total="26" passed="14" failed="0" skipped="0">
+<testng-results ignored="28" total="58" passed="30" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[this is correct titleAmazon.ca: Low Prices – Fast Shipping – Millions of Items]]>
@@ -16,41 +16,62 @@
     <line>
       <![CDATA[this is correct urlhttps://www.amazon.ca/]]>
     </line>
+    <line>
+      <![CDATA[this is correct urlhttps://www.amazon.ca/]]>
+    </line>
+    <line>
+      <![CDATA[this is correct titleAmazon.ca: Low Prices – Fast Shipping – Millions of Items]]>
+    </line>
+    <line>
+      <![CDATA[this is correct urlhttps://www.amazon.ca/]]>
+    </line>
+    <line>
+      <![CDATA[this is correct urlhttps://www.amazon.ca/]]>
+    </line>
+    <line>
+      <![CDATA[this is correct urlhttps://www.amazon.ca/]]>
+    </line>
+    <line>
+      <![CDATA[this is correct urlhttps://www.amazon.ca/]]>
+    </line>
+    <line>
+      <![CDATA[this is correct urlhttps://www.amazon.ca/]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-01-29T22:29:04Z" name="Suite" finished-at="2022-01-29T22:29:22Z" duration-ms="17324">
+  <suite started-at="2022-02-02T03:16:16Z" name="Suite" finished-at="2022-02-02T03:18:23Z" duration-ms="127057">
     <groups>
     </groups>
-    <test started-at="2022-01-29T22:29:04Z" name="RegressionTest-chrome" finished-at="2022-01-29T22:29:22Z" duration-ms="17324">
+    <test started-at="2022-02-02T03:16:16Z" name="RegressionTest-chrome" finished-at="2022-02-02T03:17:37Z" duration-ms="81065">
       <class name="test.PincodeValidation">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.PincodeValidation@5afa3c9]" started-at="2022-01-29T22:29:20Z" name="beforeclass" finished-at="2022-01-29T22:29:21Z" duration-ms="752" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.PincodeValidation@48075da3]" started-at="2022-02-02T03:17:34Z" name="beforeclass" finished-at="2022-02-02T03:17:36Z" duration-ms="1428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method signature="verifypincode()[pri:1, instance:test.PincodeValidation@5afa3c9]" started-at="2022-01-29T22:29:21Z" name="verifypincode" finished-at="2022-01-29T22:29:22Z" duration-ms="580" status="PASS">
+        <test-method signature="verifypincode()[pri:1, instance:test.PincodeValidation@48075da3]" started-at="2022-02-02T03:17:36Z" name="verifypincode" finished-at="2022-02-02T03:17:37Z" duration-ms="1753" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifypincode -->
       </class> <!-- test.PincodeValidation -->
       <class name="test.NavigationValidations">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.NavigationValidations@72cc7e6f]" started-at="2022-01-29T22:29:19Z" name="beforeclass" finished-at="2022-01-29T22:29:20Z" duration-ms="899" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.NavigationValidations@8458f04]" started-at="2022-02-02T03:17:32Z" name="beforeclass" finished-at="2022-02-02T03:17:34Z" duration-ms="1571" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method signature="validatwishlistpage()[pri:1, instance:test.NavigationValidations@72cc7e6f]" started-at="2022-01-29T22:29:20Z" name="validatwishlistpage" finished-at="2022-01-29T22:29:20Z" duration-ms="19" status="PASS">
+        <test-method signature="validatwishlistpage()[pri:1, instance:test.NavigationValidations@8458f04]" started-at="2022-02-02T03:17:34Z" name="validatwishlistpage" finished-at="2022-02-02T03:17:34Z" duration-ms="118" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[this is correct urlhttps://www.amazon.ca/]]>
             </line>
           </reporter-output>
         </test-method> <!-- validatwishlistpage -->
-        <test-method signature="validateamazoncashpage()[pri:2, instance:test.NavigationValidations@72cc7e6f]" started-at="2022-01-29T22:29:22Z" name="validateamazoncashpage" finished-at="2022-01-29T22:29:22Z" duration-ms="5" status="PASS">
+        <test-method signature="validateamazoncashpage()[pri:2, instance:test.NavigationValidations@8458f04]" started-at="2022-02-02T03:17:37Z" name="validateamazoncashpage" finished-at="2022-02-02T03:17:37Z" duration-ms="17" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[this is correct urlhttps://www.amazon.ca/]]>
             </line>
           </reporter-output>
         </test-method> <!-- validateamazoncashpage -->
-        <test-method signature="validatenewreleasepage()[pri:3, instance:test.NavigationValidations@72cc7e6f]" started-at="2022-01-29T22:29:22Z" name="validatenewreleasepage" finished-at="2022-01-29T22:29:22Z" duration-ms="6" status="PASS">
+        <test-method signature="validatenewreleasepage()[pri:3, instance:test.NavigationValidations@8458f04]" started-at="2022-02-02T03:17:37Z" name="validatenewreleasepage" finished-at="2022-02-02T03:17:37Z" duration-ms="16" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[this is correct urlhttps://www.amazon.ca/]]>
@@ -59,11 +80,11 @@
         </test-method> <!-- validatenewreleasepage -->
       </class> <!-- test.NavigationValidations -->
       <class name="test.LoginValidations">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.LoginValidations@5f049ea1]" started-at="2022-01-29T22:29:05Z" name="beforeclass" finished-at="2022-01-29T22:29:05Z" duration-ms="397" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.LoginValidations@606e4010]" started-at="2022-02-02T03:17:31Z" name="beforeclass" finished-at="2022-02-02T03:17:31Z" duration-ms="399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method signature="invalidemailkey(java.lang.String)[pri:0, instance:test.LoginValidations@5f049ea1]" started-at="2022-01-29T22:29:05Z" name="invalidemailkey" finished-at="2022-01-29T22:29:05Z" duration-ms="136" status="PASS">
+        <test-method signature="invalidemailkey(java.lang.String)[pri:0, instance:test.LoginValidations@606e4010]" started-at="2022-02-02T03:17:31Z" name="invalidemailkey" finished-at="2022-02-02T03:17:32Z" duration-ms="236" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,7 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidemailkey -->
-        <test-method signature="invalidemailkeylogout(java.lang.String)[pri:0, instance:test.LoginValidations@5f049ea1]" started-at="2022-01-29T22:29:05Z" name="invalidemailkeylogout" finished-at="2022-01-29T22:29:05Z" duration-ms="60" status="PASS">
+        <test-method signature="invalidemailkeylogout(java.lang.String)[pri:0, instance:test.LoginValidations@606e4010]" started-at="2022-02-02T03:17:32Z" name="invalidemailkeylogout" finished-at="2022-02-02T03:17:32Z" duration-ms="104" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +106,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidemailkeylogout -->
-        <test-method signature="validemailkey(java.lang.String)[pri:0, instance:test.LoginValidations@5f049ea1]" started-at="2022-01-29T22:29:05Z" name="validemailkey" finished-at="2022-01-29T22:29:05Z" duration-ms="62" status="PASS">
+        <test-method signature="validemailkey(java.lang.String)[pri:0, instance:test.LoginValidations@606e4010]" started-at="2022-02-02T03:17:32Z" name="validemailkey" finished-at="2022-02-02T03:17:32Z" duration-ms="476" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -96,7 +117,169 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validemailkey -->
-        <test-method signature="validemailkeylogout(java.lang.String)[pri:0, instance:test.LoginValidations@5f049ea1]" started-at="2022-01-29T22:29:05Z" name="validemailkeylogout" finished-at="2022-01-29T22:29:05Z" duration-ms="62" status="PASS">
+        <test-method signature="validemailkeylogout(java.lang.String)[pri:0, instance:test.LoginValidations@606e4010]" started-at="2022-02-02T03:17:32Z" name="validemailkeylogout" finished-at="2022-02-02T03:17:32Z" duration-ms="138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validemailkeylogout -->
+      </class> <!-- test.LoginValidations -->
+      <class name="test.AAALandingValidation">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:test.AAALandingValidation@72035809]" started-at="2022-02-02T03:16:16Z" name="beforeSuite" finished-at="2022-02-02T03:16:39Z" duration-ms="23176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.ca/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="validatetitle()[pri:0, instance:test.AAALandingValidation@72035809]" started-at="2022-02-02T03:16:40Z" name="validatetitle" finished-at="2022-02-02T03:16:40Z" duration-ms="587" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[this is correct titleAmazon.ca: Low Prices – Fast Shipping – Millions of Items]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatetitle -->
+        <test-method signature="validateurl()[pri:0, instance:test.AAALandingValidation@72035809]" started-at="2022-02-02T03:16:40Z" name="validateurl" finished-at="2022-02-02T03:16:40Z" duration-ms="224" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[this is correct urlhttps://www.amazon.ca/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateurl -->
+      </class> <!-- test.AAALandingValidation -->
+      <class name="test.ResultsAndPriceValidation">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.ResultsAndPriceValidation@68c9133c]" started-at="2022-02-02T03:16:46Z" name="beforeclass" finished-at="2022-02-02T03:16:50Z" duration-ms="4314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="noofresults()[pri:0, instance:test.ResultsAndPriceValidation@68c9133c]" started-at="2022-02-02T03:16:50Z" name="noofresults" finished-at="2022-02-02T03:17:05Z" duration-ms="14971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noofresults -->
+        <test-method signature="priceofmobile()[pri:0, instance:test.ResultsAndPriceValidation@68c9133c]" started-at="2022-02-02T03:17:05Z" name="priceofmobile" finished-at="2022-02-02T03:17:15Z" duration-ms="9843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceofmobile -->
+      </class> <!-- test.ResultsAndPriceValidation -->
+      <class name="test.AddToCartTest">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.AddToCartTest@909217e]" started-at="2022-02-02T03:17:15Z" name="beforeclass" finished-at="2022-02-02T03:17:18Z" duration-ms="3237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="checkcart()[pri:0, instance:test.AddToCartTest@909217e]" started-at="2022-02-02T03:17:18Z" name="checkcart" finished-at="2022-02-02T03:17:30Z" duration-ms="11584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkcart -->
+        <test-method signature="finalcheck()[pri:0, instance:test.AddToCartTest@909217e]" started-at="2022-02-02T03:17:30Z" name="finalcheck" finished-at="2022-02-02T03:17:31Z" duration-ms="1475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalcheck -->
+      </class> <!-- test.AddToCartTest -->
+      <class name="test.IframeTest">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.IframeTest@18271936]" started-at="2022-02-02T03:16:40Z" name="beforeclass" finished-at="2022-02-02T03:16:45Z" duration-ms="4423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="checkiframe()[pri:0, instance:test.IframeTest@18271936]" started-at="2022-02-02T03:16:45Z" name="checkiframe" finished-at="2022-02-02T03:16:46Z" duration-ms="719" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[this is correct urlhttps://www.amazon.ca/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkiframe -->
+      </class> <!-- test.IframeTest -->
+    </test> <!-- RegressionTest-chrome -->
+    <test started-at="2022-02-02T03:17:37Z" name="RegressionTest-firefox" finished-at="2022-02-02T03:18:23Z" duration-ms="45897">
+      <class name="test.PincodeValidation">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.PincodeValidation@59402b8f]" started-at="2022-02-02T03:18:22Z" name="beforeclass" finished-at="2022-02-02T03:18:22Z" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="verifypincode()[pri:1, instance:test.PincodeValidation@59402b8f]" started-at="2022-02-02T03:18:22Z" name="verifypincode" finished-at="2022-02-02T03:18:23Z" duration-ms="1112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypincode -->
+      </class> <!-- test.PincodeValidation -->
+      <class name="test.NavigationValidations">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.NavigationValidations@496bc455]" started-at="2022-02-02T03:18:21Z" name="beforeclass" finished-at="2022-02-02T03:18:22Z" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="validatwishlistpage()[pri:1, instance:test.NavigationValidations@496bc455]" started-at="2022-02-02T03:18:22Z" name="validatwishlistpage" finished-at="2022-02-02T03:18:22Z" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[this is correct urlhttps://www.amazon.ca/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatwishlistpage -->
+        <test-method signature="validateamazoncashpage()[pri:2, instance:test.NavigationValidations@496bc455]" started-at="2022-02-02T03:18:23Z" name="validateamazoncashpage" finished-at="2022-02-02T03:18:23Z" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[this is correct urlhttps://www.amazon.ca/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateamazoncashpage -->
+        <test-method signature="validatenewreleasepage()[pri:3, instance:test.NavigationValidations@496bc455]" started-at="2022-02-02T03:18:23Z" name="validatenewreleasepage" finished-at="2022-02-02T03:18:23Z" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[this is correct urlhttps://www.amazon.ca/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatenewreleasepage -->
+      </class> <!-- test.NavigationValidations -->
+      <class name="test.LoginValidations">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.LoginValidations@70ed52de]" started-at="2022-02-02T03:18:20Z" name="beforeclass" finished-at="2022-02-02T03:18:21Z" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="invalidemailkey(java.lang.String)[pri:0, instance:test.LoginValidations@70ed52de]" started-at="2022-02-02T03:18:21Z" name="invalidemailkey" finished-at="2022-02-02T03:18:21Z" duration-ms="101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidabc@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidemailkey -->
+        <test-method signature="invalidemailkeylogout(java.lang.String)[pri:0, instance:test.LoginValidations@70ed52de]" started-at="2022-02-02T03:18:21Z" name="invalidemailkeylogout" finished-at="2022-02-02T03:18:21Z" duration-ms="62" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidemailkeylogout -->
+        <test-method signature="validemailkey(java.lang.String)[pri:0, instance:test.LoginValidations@70ed52de]" started-at="2022-02-02T03:18:21Z" name="validemailkey" finished-at="2022-02-02T03:18:21Z" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validemailkey -->
+        <test-method signature="validemailkeylogout(java.lang.String)[pri:0, instance:test.LoginValidations@70ed52de]" started-at="2022-02-02T03:18:21Z" name="validemailkeylogout" finished-at="2022-02-02T03:18:21Z" duration-ms="45" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -109,57 +292,82 @@
         </test-method> <!-- validemailkeylogout -->
       </class> <!-- test.LoginValidations -->
       <class name="test.ResultsAndPriceValidation">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.ResultsAndPriceValidation@72035809]" started-at="2022-01-29T22:29:05Z" name="beforeclass" finished-at="2022-01-29T22:29:06Z" duration-ms="870" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.ResultsAndPriceValidation@7188af83]" started-at="2022-02-02T03:17:52Z" name="beforeclass" finished-at="2022-02-02T03:17:53Z" duration-ms="779" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method signature="noofresults()[pri:0, instance:test.ResultsAndPriceValidation@72035809]" started-at="2022-01-29T22:29:06Z" name="noofresults" finished-at="2022-01-29T22:29:08Z" duration-ms="1643" status="PASS">
+        <test-method signature="noofresults()[pri:0, instance:test.ResultsAndPriceValidation@7188af83]" started-at="2022-02-02T03:17:53Z" name="noofresults" finished-at="2022-02-02T03:17:57Z" duration-ms="4826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- noofresults -->
-        <test-method signature="priceofmobile()[pri:0, instance:test.ResultsAndPriceValidation@72035809]" started-at="2022-01-29T22:29:08Z" name="priceofmobile" finished-at="2022-01-29T22:29:10Z" duration-ms="2602" status="PASS">
+        <test-method signature="priceofmobile()[pri:0, instance:test.ResultsAndPriceValidation@7188af83]" started-at="2022-02-02T03:17:57Z" name="priceofmobile" finished-at="2022-02-02T03:18:02Z" duration-ms="4169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- priceofmobile -->
       </class> <!-- test.ResultsAndPriceValidation -->
       <class name="test.AAALandingValidation">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:test.AAALandingValidation@3ba987b8]" started-at="2022-01-29T22:29:02Z" name="beforeSuite" finished-at="2022-01-29T22:29:04Z" duration-ms="2147" status="PASS">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:test.AAALandingValidation@8462f31]" started-at="2022-02-02T03:17:37Z" name="beforeSuite" finished-at="2022-02-02T03:17:49Z" duration-ms="11594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.ca/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method signature="validatetitle()[pri:0, instance:test.AAALandingValidation@3ba987b8]" started-at="2022-01-29T22:29:04Z" name="validatetitle" finished-at="2022-01-29T22:29:05Z" duration-ms="105" status="PASS">
+        <test-method signature="validatetitle()[pri:0, instance:test.AAALandingValidation@8462f31]" started-at="2022-02-02T03:17:49Z" name="validatetitle" finished-at="2022-02-02T03:17:49Z" duration-ms="8" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[this is correct titleAmazon.ca: Low Prices – Fast Shipping – Millions of Items]]>
             </line>
           </reporter-output>
         </test-method> <!-- validatetitle -->
-        <test-method signature="validateurl()[pri:0, instance:test.AAALandingValidation@3ba987b8]" started-at="2022-01-29T22:29:05Z" name="validateurl" finished-at="2022-01-29T22:29:05Z" duration-ms="38" status="PASS">
+        <test-method signature="validateurl()[pri:0, instance:test.AAALandingValidation@8462f31]" started-at="2022-02-02T03:17:49Z" name="validateurl" finished-at="2022-02-02T03:17:49Z" duration-ms="4" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[this is correct urlhttps://www.amazon.ca/]]>
             </line>
           </reporter-output>
         </test-method> <!-- validateurl -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:test.AAALandingValidation@3ba987b8]" started-at="2022-01-29T22:29:22Z" name="afterSuite" finished-at="2022-01-29T22:29:22Z" duration-ms="187" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:test.AAALandingValidation@8462f31]" started-at="2022-02-02T03:18:23Z" name="afterSuite" finished-at="2022-02-02T03:18:25Z" duration-ms="1242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- test.AAALandingValidation -->
       <class name="test.AddToCartTest">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.AddToCartTest@3f191845]" started-at="2022-01-29T22:29:10Z" name="beforeclass" finished-at="2022-01-29T22:29:11Z" duration-ms="998" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.AddToCartTest@24569dba]" started-at="2022-02-02T03:18:02Z" name="beforeclass" finished-at="2022-02-02T03:18:03Z" duration-ms="1787" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method signature="checkcart()[pri:0, instance:test.AddToCartTest@3f191845]" started-at="2022-01-29T22:29:11Z" name="checkcart" finished-at="2022-01-29T22:29:18Z" duration-ms="6994" status="PASS">
+        <test-method signature="checkcart()[pri:0, instance:test.AddToCartTest@24569dba]" started-at="2022-02-02T03:18:03Z" name="checkcart" finished-at="2022-02-02T03:18:10Z" duration-ms="6973" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkcart -->
-        <test-method signature="finalcheck()[pri:0, instance:test.AddToCartTest@3f191845]" started-at="2022-01-29T22:29:18Z" name="finalcheck" finished-at="2022-01-29T22:29:19Z" duration-ms="1054" status="PASS">
+        <test-method signature="finalcheck()[pri:0, instance:test.AddToCartTest@24569dba]" started-at="2022-02-02T03:18:10Z" name="finalcheck" finished-at="2022-02-02T03:18:20Z" duration-ms="10075" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finalcheck -->
       </class> <!-- test.AddToCartTest -->
-    </test> <!-- RegressionTest-chrome -->
+      <class name="test.IframeTest">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.IframeTest@5ddeb7cb]" started-at="2022-02-02T03:17:49Z" name="beforeclass" finished-at="2022-02-02T03:17:52Z" duration-ms="2789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="checkiframe()[pri:0, instance:test.IframeTest@5ddeb7cb]" started-at="2022-02-02T03:17:52Z" name="checkiframe" finished-at="2022-02-02T03:17:52Z" duration-ms="14" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[this is correct urlhttps://www.amazon.ca/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkiframe -->
+      </class> <!-- test.IframeTest -->
+    </test> <!-- RegressionTest-firefox -->
   </suite> <!-- Suite -->
 </testng-results>
